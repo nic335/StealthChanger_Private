@@ -13,6 +13,8 @@ Coming Soon
 
 * If you are planing on using 2020 stacked or 2040 front extrusion, you will need the `Belt Keeper` as it will also serve as a spacer, Same applies if you are using `door buffer`
 
+**Print List**
+
 1. Shuttle
    * MGN9 shuttle Option -> `STLs/Shuttle MGN9.stl` ( Require BeltKeeper )
    * MGN12 Options
@@ -26,7 +28,35 @@ Coming Soon
    * MGN12 Options
      * BeltKeeper For 6mm Belts -> `STLs\Extras\Shuttle_Keeper_6mm_MGN12H.stl`
      * BeltKeeper For 9mm belts -> `STLs\Extras\Shuttle_Keeper_9mm_MGN12H.stl`
-   *
+3. Backplates
+   * SealthBurner -> `STLs\Backplates\StealthBurner.stl`
+   * RapidBurner
+
+     1. Adaptor Spacer -> `STLs\Backplates\Dragonburner_Spacer.stl`
+     2. Backplate -> `STLs\Backplates\RapidBurner.stl`
+   * Dragon Burner
+
+     1. Adaptor Spacer -> `STLs\Backplates\Dragonburner_Spacer.stl`
+     2. Backplate -> `STLs\Backplates\DragonBurner.stl`
+     3. (Optional) EBB36Mount -> `UserMods\BT123\Xol PCB Mount On Backplates\DragonBurner.stl`
+   * BlackBird ( [**Archetype**](https://github.com/Armchair-Heavy-Industries/Archetype) )
+
+     * ShortVersion
+       1. BackPlate
+          * Flat-> `STLs\Backplates\Blackbird Short.stl`
+          * EBB 36 (XOL Mount) -> `UserMods\BT123\Xol PCB Mount On Backplates\BlackBird Short.stl`
+            * ToolBoardMount -> `STLs\Extras\EBB_Xol_sherpa_mount.stl`
+          * Fly36 Mount -> `UserMods\TheSin-\PCB36_Mount\BlackBird_Short.stl`
+            * ToolBoardMount -> `UserMods\TheSin-\PCB36_Mount\Fly_SHT36_Mount.stl`
+       2. (Option) SherpaMount -> `STLs\Extras\BlackBird_Flat_sherpa_mount.stl`
+     * MediumVersion
+       1. BackPlate
+          * Flat -> `STLs\Backplates\Blackbird Medium.stl`
+          * EBB 36 (XOL Mount) -> `UserMods\BT123\Xol PCB Mount On Backplates\BlackBird Medium.stl`
+            * ToolBoardMount -> `STLs\Extras\EBB_Xol_sherpa_mount.stl`
+          * Fly36 Mount -> `UserMods\TheSin-\PCB36_Mount\BlackBird_Medium.stl`
+            * ToolBoardMount -> `UserMods\TheSin-\PCB36_Mount\Fly_SHT36_Mount.stl`
+          *
 
 ## Settings
 
