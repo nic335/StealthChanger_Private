@@ -15,20 +15,23 @@ Coming Soon
 
 **Print List**
 
-1. Shuttle
-   * MGN9 shuttle Option -> `STLs/Shuttle MGN9.stl` ( Require BeltKeeper )
-   * MGN12 Options
-     * MGN12 Shuttle with belt grooves -> `STLs/Shuttle MGN12 (With belt grooves).stl` ( No BeltKepper if used )
-     * MGN12 Shuttle without belt grooves -> `STLs\Shuttle MGN12 (Without belt grooves).stl` ( Require BeltKeeper)
-     * ---
-     * MGN12 Shuttle with groove -WIP- Built-in support -> `STLs\Shuttle_Builtin_Supports_WIP\Shuttle MGN12 (With belt grooves).stl` ( No belt beltKeeper if used)
-     * MGN12 Shuttle with groove -WIP- Built-in support -> `STLs\Shuttle_Builtin_Supports_WIP\Shuttle MGN12 (Without belt grooves).stl` ( Require BeltKeeper )
-2. BeltKeeper ( If Required )
-   * MGN9 Shuttle -> `STLs\Extras\Shuttle_Keeper_6mm_MGN9H.stl`
-   * MGN12 Options
-     * BeltKeeper For 6mm Belts -> `STLs\Extras\Shuttle_Keeper_6mm_MGN12H.stl`
-     * BeltKeeper For 9mm belts -> `STLs\Extras\Shuttle_Keeper_9mm_MGN12H.stl`
-3. Backplates
+*Shuttle*
+
+
+| Cariage | With Belt Groove                             | Without Belt Groove (Require BeltKeeper!)       | With Belt Groove<br />`Built In Support`                                  | Without Belt Groove<br />`Built In Support`<br />(Require BeltKeeper!)       |
+| --------- | ---------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| MGN9    | N/A                                          | `STLs/Shuttle MGN9.stl`                         | N/A                                                                       | N/A                                                                          |
+| MGN12   | `STLs/Shuttle MGN12 (With belt grooves).stl` | `STLs\Shuttle MGN12 (Without belt grooves).stl` | `STLs\Shuttle_Builtin_Supports_WIP\Shuttle MGN12 (With belt grooves).stl` | `STLs\Shuttle_Builtin_Supports_WIP\Shuttle MGN12 (Without belt grooves).stl` |
+
+*BeltKeeper*
+
+
+| Cariage | 6mm Belts                                   | 9mm Belts                                   |
+| --------- | --------------------------------------------- | --------------------------------------------- |
+| MGN9    | `STLs\Extras\Shuttle_Keeper_6mm_MGN9H.stl`  | N/A                                         |
+| MGN12   | `STLs\Extras\Shuttle_Keeper_6mm_MGN12H.stl` | `STLs\Extras\Shuttle_Keeper_9mm_MGN12H.stl` |
+
+1. Backplates
    * SealthBurner -> `STLs\Backplates\StealthBurner.stl`
    * RapidBurner
 
@@ -38,12 +41,11 @@ Coming Soon
 
      1. Adaptor Spacer -> `STLs\Backplates\Dragonburner_Spacer.stl`
      2. Backplate -> `STLs\Backplates\DragonBurner.stl`
-     3. ToolBoardMount  -- @TODO Section Still need figuring
+     3. ToolBoardMount
 
         1. (Optional-USR-MOD) `BT123` EBB36Mount -> `UserMods\BT123\Xol PCB Mount On Backplates\DragonBurner.stl`
-        2. (Optional-USR-MOD) `TheSin` EBB36Mount -> `UserMods\BT123\Xol PCB Mount On Backplates\DragonBurner.stl`
+        2. (Optional-USR-MOD) `TheSin` EBB36Mount -> `UserMods\TheSin-\PCB36_Mount\Fly_SHT36_Mount.stl`
         3. (Optional-USR-MOD) `traxman25` EBB36Mount -> `UserMods\traxman25\Dragonburner_EBB36_SC_Mount\DragonBurner_Orbiter_EBB36_ Mount_V1.1.STL`
-        4.
    * BlackBird ( [**Archetype**](https://github.com/Armchair-Heavy-Industries/Archetype) )
 
      * ShortVersion
