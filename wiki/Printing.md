@@ -11,15 +11,29 @@
 
 Before starting your Stealth Changer journey, here are some important things to think about.
 
-Lets first talk about the elephan in the room,
-**Lost Print Volume**
 
-You will loose the Blue Square + the total height of your longest tool.
-Typically on a Stock 2.4 Voron build, you will be limited to 110mm in Z under the dock.
-This means that if you decide to print something tall, it will need to be printed behind the blue square on the bed.
+| Lost Print Volume                                                                                                      | Repeatability | col3 |
+| ------------------------------------------------------------------------------------------------------------------------ | --------------- | ------ |
+| The elephan in the room,**Lost Print Volume*** You will loose the Blue Square + the total height of your longest tool. |               |      |
+| Typically on a Stock 2.4 Voron build, you will be limited to 110mm in Z under the dock.                                |               |      |
+| This means that if you decide to print something tall, it will need to be printed                                      |               |      |
+| <img src="pictures/BuildLoss.png" alt="BuildLost" style="width: 500px;">                                               |               |      |
 
-<img src="pictures/BuildLoss.png" alt="BuildLost" style="width: 500px;">
+* The elephan in the room, **Lost Print Volume**
 
+  * You will loose the Blue Square + the total height of your longest tool.
+    Typically on a Stock 2.4 Voron build, you will be limited to 110mm in Z under the dock.
+    This means that if you decide to print something tall, it will need to be printed
+* **Repeatability**
+
+  * The sturdier the dock can be the better it will be in term of realability
+  * That said, most users opt-in to use what we call a `Crossbar` so that the dock is mounted from the bottom,this way there is two point of contact, Top And Bottom avoiding top extrusion twisting.
+
+Here is an example of a cross bar
+
+<img src="./pictures/CrossBarExample.png" alt="CrossBar Example" style="width:500px;">
+
+*
 * If you are planing on using 2020 stacked or 2040 front extrusion, you will need the `Belt Keeper` as it will also serve as a spacer, Same applies if you are using `door buffer`
 
 Frame and Printer Modifications: Consider if you're making any frame or printer modifications, such as adding a printed door buffer, mini beefy front idlers,
@@ -222,13 +236,13 @@ Top
 If using stock frame
 https://github.com/DraftShift/ModularDock/blob/main/STLs/Frame/2020/Top.stl
 
-top_crossbar 
-    if using 2040/stacked 2020/door buffer 
-        https://github.com/DraftShift/ModularDock/blob/main/STLs/Frame/2020/Top_Crossbar.stl
+top_crossbar
+if using 2040/stacked 2020/door buffer
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Frame/2020/Top_Crossbar.stl
 
 L_bracket
-    If using stock frame and idlers this attaches to inside of top extrusion to help stiffen.
-            https://github.com/DraftShift/ModularDock/blob/main/STLs/Frame/2020/L_Bracket.stl
+If using stock frame and idlers this attaches to inside of top extrusion to help stiffen.
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Frame/2020/L_Bracket.stl
 1515 frame
 parts needed
 right short
@@ -254,45 +268,45 @@ If using stock frame and idlers this attaches to inside of top extrusion to help
 
 Tool based
 
-    Steath burner
-        base 
-            https://github.com/DraftShift/ModularDock/blob/main/STLs/Stealthburner/Base.stl
-        back 
-            https://github.com/DraftShift/ModularDock/blob/main/STLs/Stealthburner/Back.stl
+Steath burner
+base
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Stealthburner/Base.stl
+back
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Stealthburner/Back.stl
 
-    Dragon/rapid Burner
-        base
-            https://github.com/DraftShift/ModularDock/blob/main/STLs/Dragonburner/Base.stl
-        Base_Stubby is ONLY to be used with stock frame. ie: Top Mount or MiniBFIs, do not use with Top_Crossbar.stl, Bottom_Crossbar.stl
-            https://github.com/DraftShift/ModularDock/blob/main/STLs/Dragonburner/Base_Stubby.stl
-        Back
-            https://github.com/DraftShift/ModularDock/blob/main/STLs/Dragonburner/Back.stl
-  
-    Blackbird
-        base
-            https://github.com/DraftShift/ModularDock/blob/main/STLs/Blackbird/Base.stl
-        back
-            https://github.com/DraftShift/ModularDock/blob/main/STLs/Blackbird/Back.stl
-    
-    xol
-        base
-            https://github.com/DraftShift/ModularDock/blob/main/STLs/XOL/Back.stl
-        back                       
-             https://github.com/DraftShift/ModularDock/blob/main/STLs/XOL/Back.stl
+Dragon/rapid Burner
+base
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Dragonburner/Base.stl
+Base_Stubby is ONLY to be used with stock frame. ie: Top Mount or MiniBFIs, do not use with Top_Crossbar.stl, Bottom_Crossbar.stl
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Dragonburner/Base_Stubby.stl
+Back
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Dragonburner/Back.stl
 
-    Yavoth
-            base
-                https://github.com/DraftShift/ModularDock/blob/main/STLs/Yavoth/Base.stl
-            Base_Stubby is ONLY to be used with stock frame. ie: Top Mount or MiniBFIs, do not use with Top_Crossbar.stl, Bottom_Crossbar.stl
-                https://github.com/DraftShift/ModularDock/blob/main/STLs/Yavoth/Base_Stubby.stl
-            back
-                https://github.com/DraftShift/ModularDock/blob/main/STLs/Yavoth/Back.stl
+Blackbird
+base
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Blackbird/Base.stl
+back
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Blackbird/Back.stl
 
-    Mini sb
-            base
-                https://github.com/DraftShift/ModularDock/blob/main/STLs/MiniSB/Base.stl
-            back
-                https://github.com/DraftShift/ModularDock/blob/main/STLs/MiniSB/Back.stl
+xol
+base
+https://github.com/DraftShift/ModularDock/blob/main/STLs/XOL/Back.stl
+back
+https://github.com/DraftShift/ModularDock/blob/main/STLs/XOL/Back.stl
+
+Yavoth
+base
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Yavoth/Base.stl
+Base_Stubby is ONLY to be used with stock frame. ie: Top Mount or MiniBFIs, do not use with Top_Crossbar.stl, Bottom_Crossbar.stl
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Yavoth/Base_Stubby.stl
+back
+https://github.com/DraftShift/ModularDock/blob/main/STLs/Yavoth/Back.stl
+
+Mini sb
+base
+https://github.com/DraftShift/ModularDock/blob/main/STLs/MiniSB/Base.stl
+back
+https://github.com/DraftShift/ModularDock/blob/main/STLs/MiniSB/Back.stl
 Optional parts please read the manual
 Wipers ooze prevention
 containers decorative or knomi mount
