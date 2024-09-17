@@ -68,8 +68,8 @@ Coming Soon
        2. Mount
           1. SherpaMount -> `STLs\Extras\BlackBird_Flat_sherpa_mount.stl`
           2. (UserMod) OrbitorMount -> `UserMods\jdmontgomer\Blackbird_Orbiter_Mount\[a]_flat_orbiter.stl`
-
-## Settings
+         
+## ------------------------------------------------
 
 Before starting your Stealth Changer journey, here are some important things to think about.
 
@@ -325,7 +325,7 @@ Nozzle Calibration
 
 
 
-
+## Settings
 
 All print settings are the same as [Voron Standards](https://docs.vorondesign.com/sourcing.html#print-settings) or better.
 
