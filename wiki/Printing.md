@@ -12,12 +12,10 @@
 Before starting your Stealth Changer journey, here are some important things to think about.
 
 
-| Lost Print Volume                                                                                                      | Repeatability | col3 |
-| ------------------------------------------------------------------------------------------------------------------------ | --------------- | ------ |
-| The elephan in the room,**Lost Print Volume*** You will loose the Blue Square + the total height of your longest tool. |               |      |
-| Typically on a Stock 2.4 Voron build, you will be limited to 110mm in Z under the dock.                                |               |      |
-| This means that if you decide to print something tall, it will need to be printed                                      |               |      |
-| <img src="pictures/BuildLoss.png" alt="BuildLost" style="width: 500px;">                                               |               |      |
+| Lost Print Volume                                                                                                                                                                                                                                                                                | Repeatability                                                                                                                                                                                                                                                                      | col3 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ |
+| The elephan in the room,**Lost Print Volume*** You will loose the Blue Square + the total height of your longest tool. Typically on a Stock 2.4 Voron build, you will be limited to 110mm in Z under the dock. This means that if you decide to print something tall, it will need to be printed | The sturdier the dock can be the better it will be in term of realability.<br/>That said, most users opt-in to use what we call a `Crossbar` so that the dock is mounted from the bottom, this way there is two point of contacts, Top And Bottom avoiding top extrusion twisting. |      |
+| <img src="pictures/BuildLoss.png" alt="BuildLost" style="width: 500px;">                                                                                                                                                                                                                         | <img src="./pictures/CrossBarExample.png" alt="CrossBar Example" style="width:500px;">                                                                                                                                                                                             |      |
 
 * The elephan in the room, **Lost Print Volume**
 
@@ -30,8 +28,6 @@ Before starting your Stealth Changer journey, here are some important things to 
   * That said, most users opt-in to use what we call a `Crossbar` so that the dock is mounted from the bottom,this way there is two point of contact, Top And Bottom avoiding top extrusion twisting.
 
 Here is an example of a cross bar
-
-<img src="./pictures/CrossBarExample.png" alt="CrossBar Example" style="width:500px;">
 
 *
 * If you are planing on using 2020 stacked or 2040 front extrusion, you will need the `Belt Keeper` as it will also serve as a spacer, Same applies if you are using `door buffer`
