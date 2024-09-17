@@ -73,7 +73,8 @@ Coming Soon
 
 Before starting your Stealth Changer journey, here are some important things to think about.
 
-Frame and Printer Modifications: Consider if you're making any frame or printer modifications, such as adding a printed door buffer, mini beefy front idlers, or a combination of these. I'll list these options in the Frame section below.
+Frame and Printer Modifications: Consider if you're making any frame or printer modifications, such as adding a printed door buffer, mini beefy front idlers, 
+or a combination of these. I'll list these options in the Frame section below.
 
 Shuttle Parts: You have a few shuttle options to choose from, which will be detailed in the Shuttle Options section.
 
